@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #896447;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.intro {
+  background: #896447;
+  display: flex;
+  justify-content: center;
+}
+
+.random-info {
+  background: #dac09b;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  background: #a5947a;
+  display: flex;
+  justify-content: center;
+}
+
+.call-action {
+  background: #dac09b;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: #896447;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 500px;
+}
