@@ -123,8 +123,21 @@ a {
 .quote {
   background: #a5947a;
   display: flex;
-  justify-content: center;
-  padding: 24px 256px;
+  flex-direction: column;
+  padding: 128px 442px;
+  gap: 24px;
+  color: white;
+}
+
+.quote .text {
+  display: flex;
+  font-size: 48px;
+  font-style: italic;
+}
+
+.quote .author {
+  align-self: flex-end;
+  font-size: 24px;
 }
 
 .call-action {
