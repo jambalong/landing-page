@@ -1,5 +1,3 @@
-
-
 body {
   font-family: sans-serif;
   margin: 0;
@@ -23,7 +21,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 256px;
+  padding: 24px 192px;
+  flex-shrink: 0;
 }
 
 .header .logo {
@@ -42,8 +41,7 @@ a {
   background: #2b1e14;
   display: flex;
   justify-content: space-between;
-  padding: 72px 256px 168px;
-  align-items: ;
+  padding: 72px 192px 168px;
 }
 
 .main .desc {
@@ -53,6 +51,7 @@ a {
   color: white;
   justify-content: center;
   gap: 16px;
+  flex-shrink: 0;
 }
 
 .desc .title {
@@ -87,7 +86,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 32px 256px 168px;
+  padding: 32px 192px 168px;
   color: white;
 }
 
@@ -129,7 +128,7 @@ a {
   background: #594b3e;
   display: flex;
   flex-direction: column;
-  padding: 164px 442px;
+  padding: 164px 396px;
   gap: 24px;
   color: white;
 }
@@ -148,7 +147,7 @@ a {
 .call-action {
   background: #2b1e14;
   display: flex;
-  padding: 92px 256px;
+  padding: 92px 192px;
   color: white;
 }
 
@@ -188,6 +187,6 @@ a {
   color: white;
   display: flex;
   justify-content: center;
-  padding: 36px 256px;
+  padding: 36px 192px;
   font-size: 18px;
 }
