@@ -1,3 +1,7 @@
+* {
+  outline: 2px solid black;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -6,36 +10,128 @@ body {
   flex-direction: column;
 }
 
+img {
+  max-width: 420px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
   background-color: #896447;
   color: white;
   display: flex;
   justify-content: center;
-  padding: 24px;
+  align-items: center;
+  padding: 24px 256px;
 }
 
-.intro {
+.header .logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .navigation {
+  display: flex;
+  font-size: 18px;
+  gap: 16px;
+}
+
+.main {
   background: #896447;
   display: flex;
+  justify-content: space-between;
+  padding: 72px 256px 168px;
+  align-items: ;
+}
+
+.main .desc {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  color: white;
   justify-content: center;
+  gap: 16px;
+}
+
+.desc .title {
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.desc .text {
+  max-width: 480px;
+}
+
+.desc button {
+  max-width: 120px;
+  background: #5f3f30;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.main img {
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
+  flex: 0 0 auto;
 }
 
 .random-info {
   background: #dac09b;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding: 32px 256px 168px;
+}
+
+.random-info .title {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  padding-bottom: 48px;
+}
+
+.random-info .items {
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  flex-wrap: wrap;
+}
+
+.items .item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item .text {
+  text-align: center;
+  max-width: 232px;
+}
+
+.item img {
+  width: 232px;
+  height: 232px;
+  object-fit: cover;
 }
 
 .quote {
   background: #a5947a;
   display: flex;
   justify-content: center;
+  padding: 24px 256px;
 }
 
 .call-action {
   background: #dac09b;
   display: flex;
   justify-content: center;
+  padding: 24px 256px;
 }
 
 .footer {
@@ -43,8 +139,5 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-}
-
-img {
-  max-width: 500px;
+  padding: 24px 256px;
 }
