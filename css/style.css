@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -21,12 +27,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 192px;
+  padding: 20px;
   flex-shrink: 0;
 }
 
 .header .logo {
-  margin-right: auto;
+  margin-right: 40px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -40,14 +46,16 @@ a {
 .main {
   background: #2b1e14;
   display: flex;
-  justify-content: space-between;
-  padding: 72px 192px 168px;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
 }
 
 .main .desc {
   display: flex;
   flex-direction: column;
-  max-width: 640px;
+  max-width: 400px;
   color: white;
   justify-content: center;
   gap: 16px;
@@ -74,7 +82,7 @@ a {
 }
 
 .main img {
-  width: 500px;
+  min-width: 150px;
   height: 200px;
   object-fit: cover;
   flex: 0 0 auto;
@@ -86,7 +94,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 32px 192px 168px;
+  padding: 40px;
   color: white;
 }
 
@@ -94,7 +102,7 @@ a {
   display: flex;
   justify-content: center;
   font-size: 32px;
-  padding-bottom: 48px;
+  margin: 40px;
 }
 
 .random-info .items {
@@ -102,7 +110,7 @@ a {
   justify-content: center;
   gap: 46px;
   flex-wrap: wrap;
-  
+
 }
 
 .items .item {
@@ -128,37 +136,42 @@ a {
   background: #594b3e;
   display: flex;
   flex-direction: column;
-  padding: 164px 396px;
+  align-items: center;
+  padding: 60px;
   gap: 24px;
   color: white;
 }
 
 .quote .text {
   display: flex;
-  font-size: 54px;
+  font-size: 2.5rem;
   font-style: italic;
 }
 
 .quote .author {
-  align-self: flex-end;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .call-action {
   background: #2b1e14;
   display: flex;
-  padding: 92px 192px;
+  padding: 40px;
   color: white;
 }
 
 .call-action .info {
   background: #735b47;
   flex: 1;
-  padding: 64px 164px;
+  padding: 60px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .info .desc {
