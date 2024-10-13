@@ -1,13 +1,54 @@
-# Assignment
+# Landing Page
 
-1. Download the design images and take a look at what you’re going to be creating here. [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png), [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png)
-  1.The font that’s being used in the images is roboto.
-  2.Hero text is the statement that appears at the top of a web page.
-2. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you’re creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
-3. For the section you’re working on, begin by getting all the content onto the page before beginning to style it. In other words, do the HTML and then do the CSS. You’ll probably have to go back to the HTML once you start styling, but bouncing back and forth from the beginning will take more time and may cause more frustration. (Note: you don’t need to use more than one stylesheet. Using only one CSS file is adequate for this project).
-4. Many of the elements on this page are very similar to things you saw in our flexbox exercises… feel free to go back to those if you need a refresher.
-5. Do not worry about making your project look nice on a mobile device. We’ll learn that later.
-6. When you finish, don’t forget to push it up to GitHub!
+This project is part of The Odin Project: [Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page) focusing on building a responsive landing page using HTML and CSS.
+
+## Assignment Overview
+
+1. **Design Reference**: Download the design images and review them to understand what you’re going to create:
+
+    - [Image One (Full Design)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
+
+    - [Image Two (Color and Fonts)](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png)
+
+    Notes:
+
+    - The font that’s being used in the images is roboto.
+
+    - Hero text is the statement that appears at the top of a web page.
+
+2. **Project Approach**: Tackle the project one section at a time. The website consists of 4 main sections (and a footer), so focus on getting one section into shape before moving to the next. Starting from the top is a good strategy.
+
+3. **Content First**: Begin by adding all the content to the page before styling. Complete the HTML structure first, then apply the CSS. You may need to return to the HTML for adjustments while styling, but minimizing back-and-forth will streamline the process. (Note: Using a single stylesheet is sufficient for this project.)
+
+4. **Reference Flexbox Exercises**: Many elements in this project are similar to those from the flexbox exercises. Feel free to revisit those resources for a refresher.
+
+5. **Responsive Design**: There’s no need to make the project mobile-friendly at this stage; that will be covered later.
+
+6. **Version Control**: Don’t forget to push your completed project to GitHub!
 
 
-Credits to the orginal images source. This landing page is made for practice.
+## Credits
+
+To the orginal images sources. This landing page is made for practice.
+
+## Installation Instructions
+
+To run this project locally, follow these steps:
+
+1. **Clone the Repository**: Open your terminal and run the following command to clone the repository to your local machine:
+
+```bash
+git clone https://github.com/jambalong/landing-page.git
+```
+
+2. **Navigate to the Project Directory**: Change your directory to the cloned repository:
+
+```bash
+cd landing-page
+```
+
+3. **Open the Project in Your Browser**: Open the `index.html` file in your preferred web browser. You can do this by either:
+
+    - Dragging the `index.html` file into your browser window, or
+
+    - Right-clicking on the `index.html` file and selecting "Open with" followed by your browser choice.
