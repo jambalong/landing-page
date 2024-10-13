@@ -2,6 +2,8 @@
 
 This project is part of The Odin Project: [Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page) focusing on building a responsive landing page using HTML and CSS.
 
+Live Demo: https://jambalong.com/landing-page/
+
 ## Assignment Overview
 
 1. **Design Reference**: Download the design images and review them to understand what you’re going to create:
